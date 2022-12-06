@@ -3,10 +3,6 @@ class Node {
     private Node leftChild; // Левый узел потомок
     private Node rightChild; // Правый узел потомок
 
-    public void printNode() { // Вывод значения узла в консоль
-        System.out.println(" Выбранный узел имеет значение :" + value);
-    }
-
     public int getValue() {
         return this.value;
     }

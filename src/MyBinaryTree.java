@@ -161,7 +161,7 @@ class MyBinaryTree {
         System.out.println(list);
     }
 
-    public void traverse (Node root){ // Each child of a tree is a root of its subtree.
+    private void traverse (Node root){
         if (root.getLeftChild() != null){
             traverse (root.getLeftChild());
         }
